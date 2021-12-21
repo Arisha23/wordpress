@@ -1,0 +1,42 @@
+2021-12-07T22:26:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp1\htdocs\wordpress\wp-content\plugins\elementor\includes\base\sub-controls-stack.php on line 4
+
+2021-12-07T23:32:37+00:00 CRITICAL Uncaught Error: Call to undefined function wp_trip_all_tags() in C:\xampp1\htdocs\wordpress\wp-content\themes\woostify\inc\widget\class-woostify-recent-post-thumbnail.php:148
+Stack trace:
+#0 C:\xampp1\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(466): Woostify_Recent_Post_Thumbnail->update(Array, Array)
+#1 C:\xampp1\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Widget_Types_Controller->encode_form_data(Object(WP_REST_Request))
+#2 C:\xampp1\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(987): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#3 C:\xampp1\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 C:\xampp1\htdocs\wordpress\wp-includes\rest-api.php(370): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#5 C:\xampp1\htdocs\wordpress\wp-includes\class-wp-hook.php(303): rest_api_loaded(Object(WP))
+ in C:\xampp1\htdocs\wordpress\wp-content\themes\woostify\inc\widget\class-woostify-recent-post-thumbnail.php on line 148
+
+2021-12-07T23:33:05+00:00 CRITICAL Uncaught Error: Call to undefined function wp_trip_all_tags() in C:\xampp1\htdocs\wordpress\wp-content\themes\woostify\inc\widget\class-woostify-recent-post-thumbnail.php:148
+Stack trace:
+#0 C:\xampp1\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(466): Woostify_Recent_Post_Thumbnail->update(Array, Array)
+#1 C:\xampp1\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Widget_Types_Controller->encode_form_data(Object(WP_REST_Request))
+#2 C:\xampp1\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(987): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#3 C:\xampp1\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 C:\xampp1\htdocs\wordpress\wp-includes\rest-api.php(370): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#5 C:\xampp1\htdocs\wordpress\wp-includes\class-wp-hook.php(303): rest_api_loaded(Object(WP))
+ in C:\xampp1\htdocs\wordpress\wp-content\themes\woostify\inc\widget\class-woostify-recent-post-thumbnail.php on line 148
+
+2021-12-07T23:33:06+00:00 CRITICAL Uncaught Error: Call to undefined function wp_trip_all_tags() in C:\xampp1\htdocs\wordpress\wp-content\themes\woostify\inc\widget\class-woostify-recent-post-thumbnail.php:148
+Stack trace:
+#0 C:\xampp1\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(466): Woostify_Recent_Post_Thumbnail->update(Array, Array)
+#1 C:\xampp1\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Widget_Types_Controller->encode_form_data(Object(WP_REST_Request))
+#2 C:\xampp1\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(987): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#3 C:\xampp1\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 C:\xampp1\htdocs\wordpress\wp-includes\rest-api.php(370): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#5 C:\xampp1\htdocs\wordpress\wp-includes\class-wp-hook.php(303): rest_api_loaded(Object(WP))
+ in C:\xampp1\htdocs\wordpress\wp-content\themes\woostify\inc\widget\class-woostify-recent-post-thumbnail.php on line 148
+
+2021-12-07T23:33:07+00:00 CRITICAL Uncaught Error: Call to undefined function wp_trip_all_tags() in C:\xampp1\htdocs\wordpress\wp-content\themes\woostify\inc\widget\class-woostify-recent-post-thumbnail.php:148
+Stack trace:
+#0 C:\xampp1\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(466): Woostify_Recent_Post_Thumbnail->update(Array, Array)
+#1 C:\xampp1\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Widget_Types_Controller->encode_form_data(Object(WP_REST_Request))
+#2 C:\xampp1\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(987): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#3 C:\xampp1\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 C:\xampp1\htdocs\wordpress\wp-includes\rest-api.php(370): WP_REST_Server->serve_request('/wp/v2/widget-t...')
+#5 C:\xampp1\htdocs\wordpress\wp-includes\class-wp-hook.php(303): rest_api_loaded(Object(WP))
+ in C:\xampp1\htdocs\wordpress\wp-content\themes\woostify\inc\widget\class-woostify-recent-post-thumbnail.php on line 148
+
